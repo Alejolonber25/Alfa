@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alfa.mainController">
+      <TableView fx:id="tableView" layoutX="82.0" layoutY="26.0" prefHeight="317.0" prefWidth="304.0">
+        <columns>
+          <TableColumn fx:id="colAmount" prefWidth="75.0" text="Amount" />
+          <TableColumn fx:id="colDescription" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="colType" prefWidth="75.0" text="Type" />
+            <TableColumn fx:id="colDate" prefWidth="75.0" text="Date" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnIncomes" layoutX="160.0" layoutY="350.0" mnemonicParsing="false" text="Incomes" />
+      <Button fx:id="btnExpenses" layoutX="229.0" layoutY="350.0" mnemonicParsing="false" text="Expenses" />
+      <Button fx:id="btnCombined" layoutX="305.0" layoutY="350.0" mnemonicParsing="false" text="Combined" />
+      <Button fx:id="btnRegister" layoutX="87.0" layoutY="350.0" mnemonicParsing="false" text="Register" />
+   <Label fx:id="lblBalance" layoutX="20.0" layoutY="354.0" />
+
+</AnchorPane>
